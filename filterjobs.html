@@ -16,14 +16,45 @@
         input {
             outline: none;
         }
+
+        /* footer */
+        div .foothead {
+            color: #fff;
+            font-size: 14px;
+            font-weight: 601;
+            width: 100%;
+        }
+
+        div .nav-links a {
+            text-decoration: none;
+            color: #c7bfbf;
+            line-height: 25px;
+            font-size: 15px;
+        }
+
+        div .nav-links span {
+            text-decoration: none;
+            color: #c7bfbf;
+            line-height: 25px;
+            font-size: 15px;
+        }
+
+        div .nav-links a:hover {
+            color: white;
+        }
+
+        .copyright p {
+            color: #c7bfbf;
+            font-size: 13px;
+        }
     </style>
 </head>
 
 <body>
-    <div class="card container col-4 float-start border-0"
-        style="height: 480px; margin-left: 3% ; margin-top: 7%; width: 35%;">
-        <h4 style="color: rgba(0, 0, 0, 0.63);">Filter</h4>
-        <form action="">
+    <div class="container col" style="margin-top: 90px;">
+    <div class="d-flex">
+        <div class="container col">
+            <h4 style="color: rgba(0, 0, 0, 0.63);">Filter</h4>
             <input class="border-bottom border-success border-0 mt-4 " type="text" placeholder="select Category"
                 style="width: 90%;">
             <input class="border-bottom border-success border-0 mt-4" type="text" placeholder="Location(eg. Pokhara)"
@@ -65,82 +96,133 @@
                 <a href="#"><button type="button" class="btn btn-secondary" style="width:46% ;">Clear</button>
                 </a>
             </div>
-        </form>
-    </div>
-    <div class="m-auto">
-        <div class=" container float-end" style="height: 480px; margin-left: 3% ; margin-top: 7%; width: 59%;">
-            <div class="card border-0" style="height:10% ;">
-                <p class="mt-2 m-auto" style="font-weight: 500; font-size: 17px;">Total job found: <strong>5</strong>
-                </p>
+
+        </div>
+        
+        <div class="container col">
+            <p class="mt-2 m-auto" style="font-weight: 500; font-size: 17px;">Total job found: <strong>5</strong>
+            </p>
+            <h5 style="margin-top:10px ;">&#9733; PMP certified project manager</h5>
+            </p>
+            <p style="margin-top: -20px; font-size: 12px; color: rgba(0, 0, 0, 0.473);">sage_employer-
+                washington,
+                United states</p>
+            <div class="mt-1 d-flex">
+                <button type="button" class="btn btn-outline-success btn-sm">Salary 75</button>
+                <button type="button" class="btn btn-outline-success btn-sm">deadline 6 days from today</button>
             </div>
-            <div>
-                <div class="card mt-2 border-0 d-flex container" style="height: 40%;">
-                    <h5>&#9733; PMP certified project manager</h5>
-                    </p>
-                    <p style="margin-top: -20px; font-size: 12px; color: rgba(176, 121, 121, 0.473);">sage_employer-
-                        washington,
-                        United states</p>
-                    <div class="mt-1">
-                        <button type="button" class="btn btn-outline-success btn-sm">Salary 75</button>
-                        <button type="button" class="btn btn-outline-success btn-sm">deadline 6 days from today</button>
-                    </div>
-                    <div class="mt-2">
-                        <a href=""><button type="button" class="btn btn-outline-primary btn-sm">Project
-                                Management</button></a>
-                        <a href=""><button type="button" class="btn btn-outline-primary btn-sm">PMP</button></a>
-                        <a href=""><button type="button" class="btn btn-outline-primary btn-sm">Planning</button></a>
-                        <a href=""><button type="button" class="btn btn-outline-primary btn-sm">Analysis</button></a>
-                        <a href=""><button type="button" class="btn btn-outline-primary btn-sm">Integration</button></a>
-                        <a href=""><button type="button" class="btn btn-outline-primary btn-sm">Continue
-                                delivery</button></a>
-                    </div>
-                    <div class="mt-2">
-                        <p style="width:100% ;">
-                            <br>
-                            <a href="#"> <button type="button" class="btn btn-outline-secondary btn-sm">view
-                                    detail</button></a>
-                            <a href="#"><button type="button" class="btn btn-outline-secondary btn-sm">Apply
-                                    now</button></a>
-                            <i class="fa fa-eye float-end " style="font-size:18px; color: rgba(0, 0, 0, 0.555);">
-                                views:8</i>
-                    </div>
-                    </p>
+            <div class="mt-2">
+                <a href=""><button type="button" class="btn btn-outline-primary btn-sm">Project
+                        Management</button></a>
+                <a href=""><button type="button" class="btn btn-outline-primary btn-sm">PMP</button></a>
+                <a href=""><button type="button" class="btn btn-outline-primary btn-sm">Planning</button></a>
+                <div class="mt-1">
+                    <a href=""><button type="button" class="btn btn-outline-primary btn-sm">Analysis</button></a>
+                    <a href=""><button type="button" class="btn btn-outline-primary btn-sm">Integration</button></a>
+                    <a href=""><button type="button" class="btn btn-outline-primary btn-sm">Continue
+                            delivery</button></a>
                 </div>
             </div>
-            <div>
-                <div class="card mt-2 border-0" style="height: 50%;">
-                    <div class="card mt-2 border-0 d-flex container" style="height: 40%;">
-                        <h5>&#9733; Executive manager</h5>
-                        </p>
-                        <p style="margin-top: -20px; font-size: 12px; color: rgba(0, 0, 0, 0.473);">IT Himalaya Company
-                            - Kathmandu, Nepal</p>
-                        <div class="mt-1">
-                            <button type="button" class="btn btn-outline-success btn-sm">Salary 60000</button>
-                            <button type="button" class="btn btn-outline-success btn-sm">deadline 64 days from
-                                today</button>
-                        </div>
-                        <div class="mt-2">
-                            <a href="#"><button type="button"
-                                    class="btn btn-outline-primary btn-sm">Management</button></a>
-                            <a href="#"><button type="button"
-                                    class="btn btn-outline-primary btn-sm">Marketing</button></a>
-                        </div>
-                        <br>
-                        <div class="mt-2">
-                            <p style="width:100% ;">
-                                <a href="#"> <button type="button" class="btn btn-outline-secondary btn-sm">view
-                                        detail</button></a>
-                                <a href="#"><button type="button" class="btn btn-outline-secondary btn-sm">Apply
-                                        now</button></a>
-                                <i class="fa fa-eye float-end" style="font-size:18px; color: rgba(0, 0, 0, 0.555);">
-                                    views:6</i>
-                            </p>
-                        </div>
-                    </div>
+            <div class="mt-2">
+                <p style="width:100% ;">
+                    <br>
+                    <a href="#"> <button type="button" class="btn btn-outline-secondary btn-sm">view
+                            detail</button></a>
+                    <a href="#"><button type="button" class="btn btn-outline-secondary btn-sm">Apply
+                            now</button></a>
+                    <i class="fa fa-eye float-end " style="font-size:18px; color: rgba(0, 0, 0, 0.555);">
+                        views:8</i>
+                </p>
+            </div>
+
+            <div class="container">
+                <h5>&#9733; Executive manager</h5>
+                </p>
+                <p style="margin-top: -20px; font-size: 12px; color: rgba(0, 0, 0, 0.473);">IT Himalaya
+                    Company
+                    - Kathmandu, Nepal</p>
+
+                <button type="button" class="btn btn-outline-success btn-sm">Salary 60000</button>
+                <button type="button" class="btn btn-outline-success btn-sm">deadline 64 days from
+                    today</button>
+                <div class="mt-2">
+                    <a href="#"><button type="button" class="btn btn-outline-primary btn-sm">Management</button></a>
+                    <a href="#"><button type="button" class="btn btn-outline-primary btn-sm">Marketing</button></a>
+                </div>
+                <br>
+                <div class="mt-2">
+                    <p style="width:100% ;">
+                        <a href="#"> <button type="button" class="btn btn-outline-secondary btn-sm">view
+                                detail</button></a>
+                        <a href="#"><button type="button" class="btn btn-outline-secondary btn-sm">Apply
+                                now</button></a>
+                        <i class="fa fa-eye float-end" style="font-size:18px; color: rgba(0, 0, 0, 0.555);">
+                            views:6</i>
+                            
+                    </p> <br>
                 </div>
             </div>
         </div>
+
     </div>
+</div>
+    
+
+    <br><br><br><br>
+    
+    <footer class="" style="background-color: #363232;">
+        <div class="container">
+            <div class="row">
+                <div
+                    class="col-lg-4 col-md-6 col-sm-12 mb-2 d-flex justify-content-lg-center justify-content-sm-start mt-3">
+                    <div>
+                        <p class="foothead">FOR JOBSEEKER</p>
+                        <ul class="nav-links list-unstyled p-0">
+                            <li><a href="#">Log In</a></li>
+                            <li><a href="#">Register</a></li>
+                            <li><a href="#">Search Job</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div
+                    class="col-lg-4 col-md-6 col-sm-12 mb-2 mb-md-0 d-flex justify-content-lg-center justify-content-sm-start mt-3">
+                    <div>
+                        <p class="foothead">FOR EMPLOYER</p>
+                        <ul class="list-unstyled nav-links p-0">
+                            <li><a href="#">Log In</a></li>
+                            <li><a href="#">Register</a></li>
+                            <li><a href="#">Post Job</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div
+                    class="col-lg-4 col-md-6 mb-2 mb-md-0 d-flex justify-content-lg-center justify-content-sm-start mt-3">
+                    <div>
+                        <p class="foothead">CONNECT WITH US</p>
+                        <ul class="list-unstyled nav-links p-0">
+                            <li><a href="https://www.facebook.com/profile.php?id=100070370344538">Facebook</a></li>
+                            <li><a href="https://www.instagram.com/jobsai10/?hl=en">Instagram</a></li>
+                            <li><span>Telephone :-01-5539314</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Copyright -->
+        <div class="container-fluid">
+            <div class="row copyright">
+                <div class="text-center" style="background-color: #292525;">
+                    <p class="pt-3">© 2021 All Rights with JobsAI, Sage AI, LLC </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
 </body>
 
 </html>
